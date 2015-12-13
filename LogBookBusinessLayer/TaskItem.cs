@@ -11,6 +11,7 @@ namespace LogBook.Business
         public string Title;
         public string Subject;
         public string Body;
+        public string Creator;
         //dates
     }
 }

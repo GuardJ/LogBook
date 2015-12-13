@@ -12,10 +12,12 @@ namespace LogBookConsole
         static void Main(string[] args)
         {
             Log frontDeskLog = new Log();
-            frontDeskLog.Name = "Front Desk Log";
-            frontDeskLog.AddTaskItem("Copies", "Check In Log Copies Needed", "We are running low on check in log sheets. Please help make more copies! Thank you.");
-            frontDeskLog.AddTaskItem("Paper", "Paper is running low", "Please refill the printer paper. Make sure the front desk, hallway, and office printers have enough paper. Thanks!");
+            frontDeskLog.Title = "Front Desk Log";
+            frontDeskLog.AddTaskItem("Copies", "Check In Log Copies Needed", "We are running low on check in log sheets. Please help make more copies! Thank you.","Jose");
+            frontDeskLog.AddTaskItem("Paper", "Paper is running low", "Please refill the printer paper. Make sure the front desk, hallway, and office printers have enough paper. Thanks!","Jose");
             User user = new User();
-        }   
+
+        }
+
     }
 }
