@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogBookConsole
+namespace LogBook.Business
 {
-    public class LogBook
+    public class Log
     {
-        public LogBook()
+        public Log()
         {
             tasks = new List<TaskItem>();
             users = new List<User>();
